@@ -79,3 +79,6 @@ footer.site a { color: var(--text-2); margin-right: 16px; }
   dl.details { grid-template-columns: 1fr; gap: 2px; }
   dl.details dd { margin-bottom: 10px; }
 }
+.card .repo { display: block; width: fit-content; margin-top: 10px; font-weight: 600; font-size: 15px; text-decoration: none; }
+.card .repo:hover { text-decoration: underline; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
